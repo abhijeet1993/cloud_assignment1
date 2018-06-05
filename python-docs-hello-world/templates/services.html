@@ -1,0 +1,25 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Services</title>
+</head>
+<body>
+
+
+<center>
+      <header> <h1> Information Requst Portal </h1> </header>
+      <br> <br>
+      <form action = "{{ url_for('services') }}" method = "POST">
+      <h3>People Information</h3>
+      Search by Name<br>
+
+      <input type = "text" name = "name" /></br>
+      <button action="/search_by_name">Search</button>   
+      Grade greater than<br>
+      <textarea name = "grade" ></textarea><br>
+      <button action="/search_by_grade">Search</button>   
+      
+      <br>
+      </form>
+</body>
+</html>
